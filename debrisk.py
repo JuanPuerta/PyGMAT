@@ -352,5 +352,8 @@ class Utility:
 
 
 if __name__ == '__main__':
-    print("Hola soy PyGMAT")
+    print("Hola soy PyGMAT A la orden")
     S = Satellite()
+    S.gen_script()
+    S.run_script()
+    
