@@ -349,3 +349,8 @@ class Utility:
 
         fig1=go.Figure(data=[Scatter_RA_DEC],layout=Layout_SGeo)
         fig1.show()
+
+
+if __name__ == '__main__':
+    print("Hola soy PyGMAT")
+    S = Satellite()
